@@ -1,0 +1,18 @@
+@@ -76,7 +76,7 @@ public void test_cadastrarAcessoSemPessoa_comFalha(){
+    }
+
+    @Test
+    public void test_atualiazarAcessoExistePessoa_comSucesso(){
+    public void test_atualiazarAcessoRemovendoAcesso_comSucesso(){
+        //Dado
+        Setor setor = DELEGACIAS;
+        Categoria categoria = Categoria.CADASTRO;
+@@ -92,7 +92,7 @@ public void test_atualiazarAcessoExistePessoa_comSucesso(){
+    }
+
+    @Test
+    public void test_atualiazarAcessoPessoaNaoTemAcesso_comSucesso(){
+    public void test_atualiazarAcessoAdicionarAcesso_comSucesso(){
+        //Dado
+        Setor setor = Setor.DELEGACIAS;
+        Categoria categoria = Categoria.CADASTRO;
